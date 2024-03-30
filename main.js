@@ -1,8 +1,6 @@
 /*
 * Caio Augusto
 * Trabalho de Química/IFMG
-* é isso aí é um protótipo ainda
-* tá cagado e desorganizado :(
 */
 
 var on_show_mode = false
@@ -25,6 +23,14 @@ const FUNCS = {
     },
     end: function(){
       document.getElementById("pt-fonte").remove()
+    }
+  },
+  "Ni": {
+    start: function(){
+      linkButton("ni-fonte", "Fonte", 3, "#36f", "https://pt.m.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal", 2.5)
+    },
+    end: function(){
+      document.getElementById("ni-fonte").remove()
     }
   }
 }
