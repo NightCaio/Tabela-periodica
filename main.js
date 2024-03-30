@@ -24,7 +24,7 @@ const FUNCS = {
       linkButton("pt-fonte", "Fonte", 3, "#36f", "https://brasilescola.uol.com.br", 2.5)
     },
     end: function(){
-      
+      document.getElementById("pt-fonte").remove()
     }
   }
 }
