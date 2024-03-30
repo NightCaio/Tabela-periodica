@@ -1,0 +1,10 @@
+body {
+    font-size: 15pt;
+    background-color: #191919;
+}
+#tabela {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
