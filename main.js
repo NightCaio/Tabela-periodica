@@ -32,6 +32,14 @@ const FUNCS = {
     end: function(){
       document.getElementById("ni-fonte").remove()
     }
+  },
+  "Fe": {
+    start: function(){
+      linkButton("fe-fonte", "Fonte", 3, "#36f", "https://brasilescola.uol.com.br/quimica/ferro.htm", 2.5)
+    },
+    end: function(){
+      document.getElementById("fe-fonte").remove()
+    }
   }
 }
 function linkButton(id, text, b, c, link, f){
