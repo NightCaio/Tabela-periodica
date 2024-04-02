@@ -42,27 +42,6 @@ const FUNCS = {
     }
   }
 }
-
-let black = document.createElement("canvas")
-black.style.background = "black"
-black.style.position = "fixed"
-black.style.width = "100%"
-black.stylr.height = "100%"
-black.style.top = "0%"
-black.style.left = "0%"
-
-let ff = document.createElement("img")
-ff.src = "Ex.png"
-ff.maxWidth = "100%"
-ff.maxHeight = "100%"
-ff.margin = "auto"
-document.body.appendChild(black)
-document.body.appendChild(ff)
-document.body.onclick = ()=>{
-  ff.remove()
-  black.remove()
-  document.body.onclick = ()=>{}
-}
 function linkButton(id, text, b, c, link, f){
   let button = document.createElement("button")
   button.id = id
