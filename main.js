@@ -56,6 +56,8 @@ ff.src = "Ex.png"
 ff.maxWidth = "100%"
 ff.maxHeight = "100%"
 ff.margin = "auto"
+document.body.appendChild(black)
+document.body.appendChild(ff)
 document.body.onclick = ()=>{
   ff.remove()
   black.remove()
